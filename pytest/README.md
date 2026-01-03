@@ -69,3 +69,5 @@ def test_print_output(capsys):
 + `capsys.disabled()` disables capturing. Output will be displayed on the terminal.
 
 **Note**: `capfd` captures output at the file descriptor level.
+
+---
