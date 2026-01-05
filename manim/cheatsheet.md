@@ -2045,7 +2045,3 @@ print(f"Center: {mobject.get_center()}")
 | Diagonal corners | (±7.11, ±4.0) |
 
 ---
-
-## Conclusion
-
-This cheatsheet provides a comprehensive reference for ManimCE's extensive API. For continued learning, consult the official documentation at https://docs.manim.community, explore the example gallery, and engage with the active community. Mastery of these functions enables creation of sophisticated mathematical animations for educational and presentational purposes.
