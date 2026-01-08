@@ -71,3 +71,15 @@ def test_print_output(capsys):
 **Note**: `capfd` captures output at the file descriptor level.
 
 ---
+
+## Make Mock Function Raise SystemExit
+
+If you want a mock function to raise SystemExit when it is called, set it's `side_effect` property like so:
+
+```python
+mock_function.side_effect = SystemExit()
+```
+
+When the function that is mocked is called in the code being tested, it will raise SystemExit instead of returning a value.
+
+---
